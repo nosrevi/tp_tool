@@ -18,9 +18,13 @@ This script was written to save some time by updating targetprocess hours from t
 My personal approach on a Mac is:
 - Open Utility/Script Editor
 - Write a simple AppleScript. Example:
+
+```
 tell application "Terminal"
   do script 'node path/to/kp.js'
 end Tell
+
+```
 - File -> Save as an application
 
 Then in Apple's calendar app, at a repeating event at some time. Set alert action to "Open" the application you saved above. Example: http://osxdaily.com/2013/04/15/launch-file-app-scheduled-date-mac-os-x/
